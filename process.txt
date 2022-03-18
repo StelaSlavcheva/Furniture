@@ -1,0 +1,17 @@
+1. Extract project skeletton and examine files
+2. Set-up npm poroject (install libraries - page js; lit-html, moch, chai, playwright)
+3. Analyze the HTML template and determine templates
+4. Consfigure routing with placeholder modules
+5. Implement requests
+6. Implement each view
+    6.1 Create static templates
+    6.2 Implement fetch requests
+    6.3 Add parameters to template
+    6.4 Add event listeners (if any)
+
+
+VIEW CONTROLLER - dashboard
+- fetch data
+- interpolate template
+- handle user input
+- return content/ render content
