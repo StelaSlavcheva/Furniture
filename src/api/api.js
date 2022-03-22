@@ -3,6 +3,7 @@ export const settings = {
 };
 
 async function request(url, options) {
+
   try {
     const response = await fetch(url, options);
 
@@ -29,6 +30,7 @@ function getOptions(method = "get", body) {
     headers: {},
   };
   const token = sessionStorage.getItem("authToken");
+
   if (token != null) {
     options.headers["X-Authorization"] = token;
   }
